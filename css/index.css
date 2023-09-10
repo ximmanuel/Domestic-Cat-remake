@@ -1,0 +1,41 @@
+main p {
+    font-size: 18px;
+    text-shadow: 0 0 5px #c2dbff80;
+}
+
+.random-cats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+.random-cats img {
+    max-width: 600px;
+    border: 3px solid rgba(255, 255, 255, 0.829);
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
+    background-color: #5e5e5e;
+    margin: 80px;
+    padding: 12px;
+}
+
+.random-cats .btn {
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(90deg, 
+        #7e7e7e 0%, #7a7979 56%, 
+        #5a5a5a 100%);
+    animation: move 2s infinite;
+    border-radius: 20px;
+    border: 2px solid #e2e2e2;
+}
+
+@keyframes move {
+    50% {
+      background-image: linear-gradient(262deg, 
+        #8b8b8b 0%, #585858 56%, 
+        #646464 100%);
+    }
+}
