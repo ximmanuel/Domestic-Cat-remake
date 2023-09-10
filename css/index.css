@@ -18,6 +18,14 @@ main p {
     padding: 12px;
 }
 
+@media screen and (max-width: 768px) {
+    .random-cats img {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .random-cats .btn {
     height: 40px;
     margin-top: auto;

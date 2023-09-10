@@ -63,6 +63,10 @@ header h1:hover {
     color: #00000080 !important;
 }
 
+.navbar-toggler {
+    margin-left: auto !important;
+}
+
 p {
     color: #fff;
     font-size: 16px;
