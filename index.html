@@ -15,7 +15,7 @@
     <div class="header-nav-container">
         <header>
             <div class="container header-logo d-flex justify-content-center align-items-center">
-                <img class="header-logo-img" src="images/logo.png" alt="Cat logo" aria-label="Cat Logo" width="96px">
+                <img class="header-logo-img" src="images/logo.png" alt="Cat logo" aria-label="Cat Logo" onclick="catLogoWink()" width="96px">
                 <h1>Hauskatze</h1>
             </div>
         </header>
@@ -87,8 +87,9 @@
             </div>
             <p class="mt-5">Die Hauskatze ist die Haustierform der Falbkatze. Diese zählt zu den beliebtesten Heimtieren des Menschen.</p>
             <section class="random-cats">
-                <img src="images/katze-liegend.webp" alt="Random cat" aria-label="Random Cat">
-                <button class="btn btn-primary random-cat-btn" title="Zufällige Katze Knopf" aria-label="Random Cat Button">
+                <img class="random-cat-image" src="images/katze-liegend.webp" alt="Random cat" aria-label="Random Cat">
+                <button class="btn btn-primary random-cat-btn" title="Zufällige Katze Knopf" aria-label="Random Cat Button"
+                    onclick="setRandomCat()">
                     <b>Zufällige Katze</b>
                 </button>
             </section>
@@ -159,5 +160,7 @@
     </footer>    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/cat-logo-wink.js"></script>
+    <script src="js/random-cat.js"></script>
 </body>
 </html>
