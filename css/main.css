@@ -17,6 +17,7 @@ body {
 }
 
 header h1 {
+    cursor: default;
     margin-left: 15px;
     font-size: 34pt;
     font-weight: 500;
@@ -29,6 +30,7 @@ header h1:hover {
 }
 
 .header-logo-img {
+    cursor: pointer;
     border: 2px solid #ece5e5d3;
     box-shadow: 0 0 10px #3b393980;
     background-color: #575757;
