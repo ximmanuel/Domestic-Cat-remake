@@ -18,6 +18,11 @@ main p {
     padding: 12px;
 }
 
+.random-cats img:hover {
+    transition: all .2s ease-in;
+    transform: scale(1.1);
+}
+
 @media screen and (max-width: 768px) {
     .random-cats img {
         max-width: 300px;
