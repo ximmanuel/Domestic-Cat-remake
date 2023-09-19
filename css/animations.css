@@ -13,7 +13,7 @@
     position: relative;
     left: -500px;
     opacity: 0;
-    animation: slideIn ease 2s, fadeIn ease 2s;
+    animation: slideIn ease 2s, fadeIn ease 3s;
     animation-fill-mode: forwards;
 }
 
@@ -25,4 +25,14 @@
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+::selection {
+    background: #fdfdfdb3;
+    color: #0e0e0e;
+}
+
+::-moz-selection {
+    background: #fdfdfdb3;
+    color: #0e0e0e;
 }

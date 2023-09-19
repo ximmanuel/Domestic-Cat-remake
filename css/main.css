@@ -89,3 +89,7 @@ footer a {
 footer a:hover {
     color: #fff;
 }
+
+footer .lytex-media {
+    text-shadow: #9d0dd6 0 0 25px;
+}
