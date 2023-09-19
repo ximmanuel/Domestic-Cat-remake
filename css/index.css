@@ -11,8 +11,8 @@ main p {
 
 .random-cats img {
     max-width: 600px;
-    border: 3px solid rgba(255, 255, 255, 0.829);
-    box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
+    border: 3px solid #ffffffd3;
+    box-shadow: 0 0 100px #ffffff80;
     background-color: #5e5e5e;
     margin: 80px;
     padding: 12px;
