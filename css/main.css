@@ -16,16 +16,23 @@ body {
     padding-bottom: 10pt;
 }
 
-header h1 {
+h1 {
     cursor: default;
-    margin-left: 15px;
-    font-size: 34pt;
-    font-weight: 500;
     color: #fff;
 }
 
-header h1:hover {
+h1:hover {
     transition: all .2s ease-in;
+    text-decoration: underline;
+}
+
+header h1 {
+    margin-left: 15px;
+}
+
+h2 {
+    cursor: default;
+    color: #eee;
     text-decoration: underline;
 }
 
