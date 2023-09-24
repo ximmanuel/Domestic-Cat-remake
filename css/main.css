@@ -107,6 +107,12 @@ footer .lytex-media {
     margin: 30px;
 }
 
+@media screen and (max-width: 768px) {
+    .cat-profile-img {
+        max-width: 300px;
+    }
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
