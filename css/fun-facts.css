@@ -1,0 +1,25 @@
+.accordion-button {
+    background-color: #494949;
+    color: #f362f8;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #3f3f3f;
+    color: #c4c4c4;
+}
+
+.accordion-body {
+    background-color: #3f3f3f;
+    color: #c4c4c4;
+    font-size: 18px;
+}
+
+.accordion-item {
+    margin: 0 10px;
+}

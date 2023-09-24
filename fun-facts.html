@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Erfahre alles über verschiedene Katzenrassen wie der Bombay-Katze, der Britisch-Kurzhaar. Funfacts, ein Quiz und mehr.">
+    <title>Hauskatze | Fun Facts</title>
+
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fun-facts.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <div class="header-nav-container">
+        <header class="fade-in">
+            <div class="container header-logo d-flex justify-content-center align-items-center">
+                <img class="header-logo-img" src="images/logo.png" alt="Cat logo" aria-label="Cat Logo" onclick="catLogoWink()" width="96px">
+                <h1>Hauskatze</h1>
+            </div>
+        </header>
+    
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container fade-in">
+                <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <b class="nav-link d-none d-lg-block">•</b>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="steckbrief.html">Steckbrief</a>
+                        </li>
+                        <li class="nav-item">
+                            <b class="nav-link d-none d-lg-block">•</b>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bombay-katze.html">Bombay-Katze</a>
+                        </li>
+                        <li class="nav-item">
+                            <b class="nav-link d-none d-lg-block">•</b>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bengalkatze.html">Bengalkatze</a>
+                        </li>
+                        <li class="nav-item">
+                            <b class="nav-link d-none d-lg-block">•</b>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="britisch-kurzhaar.html">Britisch-Kurzhaar</a>
+                        </li>
+                        <li class="nav-item">
+                            <b class="nav-link d-none d-lg-block">•</b>
+                        </li>
+                        <li class="nav-item text-decoration-underline">
+                            <a class="nav-link" href="fun-facts.html">Fun Facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <b class="nav-link d-none d-lg-block">•</b>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Quiz</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <hr>
+
+    <main id="content">
+        <div class="container text-center mt-5 mb-5">
+            <h2 class="fade-in">Fun Facts</h2>
+            <div class="fun-facts-container slide-in">
+                <div class="accordion mt-5" id="funFactsAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Fact 1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Katzen können bis zu 16 Stunden am Tag schlafen.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Fact 2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Katzen können nicht süß schmecken.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Fact 3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Katzen haben fünf Zehen an den Vorderpfoten, aber nur vier an den Hinterpfoten.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Fact 4
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Durchschnittlich schnurrt eine Katze mit 25 Schnurrgeräuschen pro Sekunde.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Fact 5
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Katzen haben 32 Muskeln in jedem Ohr.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Fact 6
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Katzen können ihre Schwänze benutzen, um ihre Gefühle zu kommunizieren.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Fact 7
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Die meisten Katzen sind laktoseintolerant.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Fact 8
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Katzen können bis zu 30 km/h schnell laufen.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Fact 9
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Katzen können bis zu 65 m hohen Stürzen überleben.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                Fact 10
+                            </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Die Nase einer Katze ist so einzigartig wie ein menschlicher Fingerabdruck.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEleven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                Fact 11
+                            </button>
+                        </h2>
+                        <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Katzen haben einen speziellen "Katzensprung", der ihnen hilft, hohe Hindernisse zu überwinden.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwelve">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                Fact 12
+                            </button>
+                        </h2>
+                        <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Katzennasen können bis zu 15-mal besser riechen als Menschennasen.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThirteen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                Fact 13
+                            </button>
+                        </h2>
+                        <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                In der Antike wurden Katzen in Ägypten als heilige Tiere verehrt.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFourteen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                Fact 14
+                            </button>
+                        </h2>
+                        <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Die älteste bekannte Katze war 38 Jahre alt.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFifteen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                Fact 15
+                            </button>
+                        </h2>
+                        <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen"
+                            data-bs-parent="#funFactsAccordion">
+                            <div class="accordion-body">
+                                Eine Gruppe von Katzen wird als "Klauen" bezeichnet.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="text-uppercase">Hauskatze</h5>
+
+                    <p title="Made by Immanuel Mruk">Made by Immanuel Mruk</p>
+                    <ul class="list-unstyled mb-0">
+                        <li class="lytex-media">
+                            <a href="https://lytexmedia.com" target="_blank" title="LYTEX MEDIA">LYTEX MEDIA</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="text-uppercase">Navigation</h5>
+    
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="steckbrief.html">Steckbrief</a>
+                        </li>
+                        <li>
+                            <a href="bombay-katze.html">Bombay-Katze</a>
+                        </li>
+                        <li>
+                            <a href="bengalkatze.html">Bengalkatze</a>
+                        </li>
+                        <li>
+                            <a href="britisch-kurzhaar.html">Britisch-Kurzhaar</a>
+                        </li>
+                        <li>
+                            <a href="fun-facts.html">Fun Facts</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="text-uppercase">Social Media</h5>
+    
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://github.com/ximmanuel" target="_blank">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/ximmanuelm/" target="_blank">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ximmanuelm" target="_blank">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@ximmanuel" target="_blank">TikTok</a>
+                        </li>
+                        <li>
+                            <a href="mailto:contact@lytexmedia.com" target="_blank">Email</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>    
+
+    <script src="js/cat-logo-wink.js"></script>
+    <script src="js/random-cat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
